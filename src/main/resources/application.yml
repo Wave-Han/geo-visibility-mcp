@@ -1,0 +1,16 @@
+spring:
+  main:
+    web-application-type: none
+    banner-mode: "off"
+  ai:
+    mcp:
+      server:
+        name: geo-visibility-mcp
+        version: 0.1.0
+
+geo:
+  data-dir: ./data
+  engines: []
+  measure:
+    concurrency: 4
+    retries: 2
