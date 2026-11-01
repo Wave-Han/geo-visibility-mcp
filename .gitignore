@@ -1,7 +1,6 @@
-__pycache__/
-*.py[cod]
-output/
 target/
-*.iml
+output/
 .idea/
+*.iml
 .DS_Store
+.superpowers/

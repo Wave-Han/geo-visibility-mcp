@@ -1,0 +1,12 @@
+category_term: "test devices"
+discovery:
+  max_questions: 5
+  intents: ["best", "top rated"]
+  subcategories: ["widget", "gadget"]
+  qualifiers: ["for pets", ""]
+  budget_prices: [100]
+brand_templates:
+  comparison: ["{brand} vs {competitor}", "alternatives to {brand}"]
+  trust: ["Is {brand} legit?"]
+  price_longtail: ["Is {brand} worth the money?"]
+  freshness: ["What's new from {brand} in 2025-2026?"]
