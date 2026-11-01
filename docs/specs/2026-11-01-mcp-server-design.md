@@ -69,8 +69,10 @@ throw to the MCP layer; tools report partial results with an `errors` array.
 | `analyze_data` | `brand?`, `engine?` | metrics from existing JSONL: per-brand mention rate / avg position / verdict distribution, tier & country aggregates (per engine, never pooled across layers) |
 | `probe_engine` | `engine` | grounding probe result: groundedLikely + evidence |
 
-`measure_brand` default flow: 6 category discovery questions + brand-level
-questions up to `questionLimit`; appends to
+`measure_brand` default flow: `questionLimit` (default 10) caps the **total**
+questions per engine — 6 category discovery questions first, then brand-level
+questions (comparison/trust/price/freshness) until the cap. `engines` omitted
+means all enabled engines that have an API key. Appends to
 `<data-dir>/output/raw/<engine>.jsonl`; resume semantics identical to the
 Python tool (existing successful qids are skipped; errored qids re-run).
 
