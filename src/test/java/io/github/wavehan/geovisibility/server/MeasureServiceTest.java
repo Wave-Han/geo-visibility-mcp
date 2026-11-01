@@ -88,6 +88,28 @@ class MeasureServiceTest {
         assertFalse(result.errors().isEmpty());
     }
 
+    @Test
+    void perEngineErrorsSurfaceWhenAllQuestionsFail(@TempDir Path dir) throws Exception {
+        copyFixtures(dir);
+        var builder = RestClient.builder();
+        MockRestServiceServer.bindTo(builder).build()
+                .expect(org.springframework.test.web.client.ExpectedCount.manyTimes(),
+                        anything())
+                .andRespond(org.springframework.test.web.client.response
+                        .MockRestResponseCreators.withUnauthorizedRequest());
+        var props = props(dir);
+        var svc = new MeasureService(new BrandRepository(dir),
+                new JsonlStore(new ObjectMapper()),
+                new TestRegistry(builder.build(), props), props);
+
+        var result = svc.measure("Alpha", null, 4);
+        var em = result.engines().get(0);
+        assertEquals(4, em.run());
+        assertFalse(em.errors().isEmpty(), "per-question failures must surface in errors");
+        // all-errored run has no valid discovery pool -> null, not a fake 0.0
+        assertNull(em.mentionRate());
+    }
+
     /** Registry override injecting a RestClient-backed mock adapter. */
     static class TestRegistry extends EngineRegistry {
 

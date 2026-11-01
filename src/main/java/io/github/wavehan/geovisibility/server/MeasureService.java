@@ -66,7 +66,7 @@ public class MeasureService {
         }
         Brand brand = brandOpt.get();
 
-        var seeds = QuestionSeeds.load(props.getDataDir().resolve("data/questions.yaml"));
+        var seeds = QuestionSeeds.load(QuestionSeeds.locate(props.getDataDir()));
         var questions = new QuestionGenerator(all, seeds).forBrand(brand, limit);
         var matchers = MentionParser.buildMatchers(all);
 
@@ -97,6 +97,7 @@ public class MeasureService {
                         .resolve("output/raw/" + adapter.name() + ".jsonl");
                 var done = store.successfulQids(file);
                 var todo = questions.stream().filter(q -> !done.contains(q.qid())).toList();
+                var engineErrors = java.util.Collections.synchronizedList(new ArrayList<String>());
 
                 List<Future<Object>> futures = new ArrayList<>();
                 for (var q : todo) {
@@ -107,16 +108,18 @@ public class MeasureService {
                                     q.dimension(), q.brand(), q.text(), ans.answer(),
                                     ans.citations(), null, JsonlStore.nowTs()));
                         } catch (EngineException e) {
+                            String msg = Redactor.redact("HTTP " + e.status() + ": " + e.body());
+                            engineErrors.add(q.qid() + " " + msg);
                             store.append(file, new RawRecord(adapter.name(), q.qid(),
                                     q.dimension(), q.brand(), q.text(), "", List.of(),
-                                    Redactor.redact("HTTP " + e.status() + ": " + e.body()),
-                                    JsonlStore.nowTs()));
+                                    msg, JsonlStore.nowTs()));
                         } catch (Exception e) {
                             // any other per-question failure becomes an error record
+                            String msg = Redactor.redact(String.valueOf(e));
+                            engineErrors.add(q.qid() + " " + msg);
                             store.append(file, new RawRecord(adapter.name(), q.qid(),
                                     q.dimension(), q.brand(), q.text(), "", List.of(),
-                                    Redactor.redact(String.valueOf(e)),
-                                    JsonlStore.nowTs()));
+                                    msg, JsonlStore.nowTs()));
                         }
                         return null;
                     }));
@@ -125,8 +128,10 @@ public class MeasureService {
                     f.get();
                 }
 
+                // metrics only over valid (non-errored) records, same as the Python parser
                 var records = store.readAll(props.getDataDir().resolve("output/raw")).stream()
                         .filter(r -> r.engine().equals(adapter.name()))
+                        .filter(r -> r.error() == null)
                         .toList();
                 var layer = registry.engines().stream()
                         .filter(e -> e.name().equals(adapter.name()))
@@ -137,7 +142,7 @@ public class MeasureService {
                         Metrics.avgPosition(brandName, records, matchers),
                         todo.size(),
                         questions.size() - todo.size(),
-                        List.of()));
+                        List.copyOf(engineErrors)));
             }
         } catch (Exception e) {
             errors.add(Redactor.redact(String.valueOf(e)));

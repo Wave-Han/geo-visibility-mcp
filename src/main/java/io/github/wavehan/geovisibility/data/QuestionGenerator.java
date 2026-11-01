@@ -95,12 +95,17 @@ public class QuestionGenerator {
         return out;
     }
 
-    /** Up to limit questions: discovery first, then this brand's own questions. */
+    /**
+     * Up to limit questions total: at most 6 discovery questions first
+     * (spec §5), then this brand's own questions until the cap. Keeping
+     * discovery at 6 preserves parity with the Python tool's pilot set.
+     */
     public List<Question> forBrand(Brand brand, int limit) {
         var out = new ArrayList<Question>();
         var all = all();
+        int discoveryCap = Math.min(6, limit);
         for (Question q : all) {
-            if (out.size() >= limit) {
+            if (out.size() >= discoveryCap) {
                 break;
             }
             if (q.dimension().equals("discovery")) {

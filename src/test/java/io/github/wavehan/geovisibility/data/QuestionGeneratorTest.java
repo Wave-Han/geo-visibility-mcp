@@ -4,9 +4,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.wavehan.geovisibility.core.Question;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.condition.EnabledIf;
+import org.junit.jupiter.api.io.TempDir;
 
 import java.nio.file.Path;
 import java.util.List;
+import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -37,6 +39,41 @@ class QuestionGeneratorTest {
                 .forBrand(brands.get(1), 100);
         assertTrue(qs.stream().anyMatch(q -> q.text().equals("Beta vs Alpha")));
         assertTrue(qs.stream().anyMatch(q -> q.text().equals("Is Beta legit?")));
+    }
+
+    @Test
+    void forBrandCapsDiscoveryAtSixEvenWhenMoreExist() {
+        // spec §5: 6 discovery first, then brand-level until the cap
+        var brands = new BrandRepository(FIX).load();
+        var seeds = new QuestionSeeds("test devices",
+                new QuestionSeeds.Discovery(40, List.of("best", "top rated"),
+                        List.of("widget", "gadget"), List.of("for pets", "small homes"),
+                        List.of(100, 200)),
+                Map.of(
+                        "comparison", List.of("{brand} vs {competitor}"),
+                        "trust", List.of("Is {brand} legit?"),
+                        "price_longtail", List.of("Is {brand} worth the money?"),
+                        "freshness", List.of("What's new from {brand}?")));
+        var g = new QuestionGenerator(brands, seeds);
+        // sanity: plenty of discovery questions available
+        assertTrue(g.expandDiscovery().size() >= 10);
+        var qs = g.forBrand(brands.get(0), 10);
+        assertEquals(6, qs.stream().filter(q -> q.dimension().equals("discovery")).count());
+        assertEquals(4, qs.stream().filter(q -> q.brand() != null).count());
+    }
+
+    @Test
+    void seedsLocateFallsBackToRootLevelYaml(@TempDir java.nio.file.Path dir) throws Exception {
+        java.nio.file.Files.copy(FIX.resolve("questions.yaml"), dir.resolve("questions.yaml"));
+        assertEquals(dir.resolve("questions.yaml"), QuestionSeeds.locate(dir));
+    }
+
+    @Test
+    void seedsLocatePrefersDataSubdir(@TempDir java.nio.file.Path dir) throws Exception {
+        java.nio.file.Files.createDirectories(dir.resolve("data"));
+        java.nio.file.Files.copy(FIX.resolve("questions.yaml"), dir.resolve("data/questions.yaml"));
+        java.nio.file.Files.copy(FIX.resolve("questions.yaml"), dir.resolve("questions.yaml"));
+        assertEquals(dir.resolve("data/questions.yaml"), QuestionSeeds.locate(dir));
     }
 
     @Test

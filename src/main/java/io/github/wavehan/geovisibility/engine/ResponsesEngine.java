@@ -45,7 +45,7 @@ public class ResponsesEngine implements EngineAdapter {
         var body = Map.of("model", model,
                 "tools", List.of(Map.of("type", "web_search")),
                 "input", question);
-        RestClientResponseException last = null;
+        org.springframework.web.client.RestClientException last = null;
         for (int attempt = 0; attempt <= backoff.length; attempt++) {
             if (attempt > 0) {
                 sleep(backoff[attempt - 1]);
@@ -59,18 +59,22 @@ public class ResponsesEngine implements EngineAdapter {
                         .body(String.class);
                 return extract(raw);
             } catch (RestClientResponseException e) {
-                last = e;
-                if (!retryable(e)) {
+                // HTTP error: retry only 429/5xx, fail fast on other 4xx
+                if (!(e.getStatusCode().value() == 429
+                        || e.getStatusCode().value() >= 500)) {
                     throw shorten(e);
                 }
+                last = e;
+            } catch (org.springframework.web.client.ResourceAccessException e) {
+                // network-level failure (timeout, reset, DNS): always retry
+                last = e;
             }
         }
-        throw shorten(last);
-    }
-
-    private static boolean retryable(RestClientResponseException e) {
-        int code = e.getStatusCode().value();
-        return code == 429 || code >= 500;
+        if (last instanceof RestClientResponseException rre) {
+            throw shorten(rre);
+        }
+        String msg = last == null ? "unknown transport failure" : String.valueOf(last);
+        throw new EngineException(0, msg.substring(0, Math.min(200, msg.length())));
     }
 
     private static EngineException shorten(RestClientResponseException e) {

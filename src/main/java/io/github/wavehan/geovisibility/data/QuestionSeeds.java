@@ -21,6 +21,15 @@ public record QuestionSeeds(String categoryTerm, Discovery discovery,
                             List<Integer> budgetPrices) {
     }
 
+    /** Resolves questions.yaml: <dataDir>/data/ first, then <dataDir>/ root (sample-data layout). */
+    public static Path locate(Path dataDir) {
+        var p = dataDir.resolve("data/questions.yaml");
+        if (!p.toFile().exists()) {
+            p = dataDir.resolve("questions.yaml");
+        }
+        return p;
+    }
+
     public static QuestionSeeds load(Path yaml) {
         try {
             return new ObjectMapper(new YAMLFactory()).readValue(yaml.toFile(), QuestionSeeds.class);

@@ -50,7 +50,7 @@ public class CompatEngine implements EngineAdapter {
         if (extraBody != null) {
             body.putAll(extraBody);
         }
-        RestClientResponseException last = null;
+        org.springframework.web.client.RestClientException last = null;
         for (int attempt = 0; attempt <= backoff.length; attempt++) {
             if (attempt > 0) {
                 sleep(backoff[attempt - 1]);
@@ -64,27 +64,27 @@ public class CompatEngine implements EngineAdapter {
                         .body(String.class);
                 return extract(raw);
             } catch (RestClientResponseException e) {
-                last = e;
                 int code = e.getStatusCode().value();
                 if (code != 429 && code < 500) {
                     throw shorten(e);
                 }
+                last = e;
+            } catch (org.springframework.web.client.ResourceAccessException e) {
+                // network-level failure (timeout, reset, DNS): always retry
+                last = e;
             }
         }
-        throw shorten(last);
+        if (last instanceof RestClientResponseException rre) {
+            throw shorten(rre);
+        }
+        String msg = last == null ? "unknown transport failure" : String.valueOf(last);
+        throw new EngineException(0, msg.substring(0, Math.min(200, msg.length())));
     }
 
     private static EngineException shorten(RestClientResponseException e) {
         String b = e.getResponseBodyAsString();
         return new EngineException(e.getStatusCode().value(),
                 b == null ? "" : b.substring(0, Math.min(200, b.length())));
-    }
-
-    private static EngineException shortenLast(RestClientResponseException last) {
-        if (last == null) {
-            return new EngineException(0, "");
-        }
-        return shorten(last);
     }
 
     static EngineAnswer extract(String raw) {

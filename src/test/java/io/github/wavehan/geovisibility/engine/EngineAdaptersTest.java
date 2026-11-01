@@ -75,4 +75,23 @@ class EngineAdaptersTest {
         assertThrows(EngineException.class, () -> e.ask("q"));
         server.verify();
     }
+
+    @Test
+    void retriesOnNetworkErrorThenSucceeds() {
+        var builder = RestClient.builder();
+        var server = MockRestServiceServer.bindTo(builder).build();
+        // first attempt: network-level failure (ResourceAccessException) -> must retry
+        server.expect(requestTo("https://fake.test/v1/responses"))
+                .andRespond(org.springframework.test.web.client.response
+                        .MockRestResponseCreators.withException(new java.io.IOException("reset")));
+        server.expect(requestTo("https://fake.test/v1/responses"))
+                .andRespond(withSuccess("""
+                        {"output":[{"type":"message","content":[
+                          {"type":"output_text","text":"recovered"}]}]}""",
+                        MediaType.APPLICATION_JSON));
+        var e = new ResponsesEngine("deepseek", "https://fake.test/v1", "m",
+                "k", builder.build(), new long[]{0});
+        assertEquals("recovered", e.ask("q").answer());
+        server.verify();
+    }
 }
