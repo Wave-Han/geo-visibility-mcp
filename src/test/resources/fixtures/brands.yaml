@@ -1,0 +1,4 @@
+category: "test devices"
+brands:
+  - {name: Alpha, domain: alpha.com, tier: leader, country: CN, competitors: [Beta], aliases: [Alphatron]}
+  - {name: Beta, domain: beta.com, tier: growth, country: INTL, competitors: [Alpha]}

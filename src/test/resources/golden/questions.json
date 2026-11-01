@@ -1,0 +1,2162 @@
+[
+ {
+  "qid": "D001",
+  "dimension": "discovery",
+  "text": "best robot vacuum",
+  "brand": null
+ },
+ {
+  "qid": "D002",
+  "dimension": "discovery",
+  "text": "best robot vacuum for pet hair",
+  "brand": null
+ },
+ {
+  "qid": "D003",
+  "dimension": "discovery",
+  "text": "best robot vacuum for large homes",
+  "brand": null
+ },
+ {
+  "qid": "D004",
+  "dimension": "discovery",
+  "text": "best robot vacuum for thick carpet",
+  "brand": null
+ },
+ {
+  "qid": "D005",
+  "dimension": "discovery",
+  "text": "best robot vacuum for hardwood floors",
+  "brand": null
+ },
+ {
+  "qid": "D006",
+  "dimension": "discovery",
+  "text": "best robot vacuum for multiple pets",
+  "brand": null
+ },
+ {
+  "qid": "D007",
+  "dimension": "discovery",
+  "text": "best robot vacuum on a budget",
+  "brand": null
+ },
+ {
+  "qid": "D008",
+  "dimension": "discovery",
+  "text": "best robot vacuum and mop combo",
+  "brand": null
+ },
+ {
+  "qid": "D009",
+  "dimension": "discovery",
+  "text": "best robot vacuum and mop combo for pet hair",
+  "brand": null
+ },
+ {
+  "qid": "D010",
+  "dimension": "discovery",
+  "text": "best robot vacuum and mop combo for large homes",
+  "brand": null
+ },
+ {
+  "qid": "D011",
+  "dimension": "discovery",
+  "text": "best robot vacuum and mop combo for thick carpet",
+  "brand": null
+ },
+ {
+  "qid": "D012",
+  "dimension": "discovery",
+  "text": "best robot vacuum and mop combo for hardwood floors",
+  "brand": null
+ },
+ {
+  "qid": "D013",
+  "dimension": "discovery",
+  "text": "best robot vacuum and mop combo for multiple pets",
+  "brand": null
+ },
+ {
+  "qid": "D014",
+  "dimension": "discovery",
+  "text": "best robot vacuum and mop combo on a budget",
+  "brand": null
+ },
+ {
+  "qid": "D015",
+  "dimension": "discovery",
+  "text": "best self-emptying robot vacuum",
+  "brand": null
+ },
+ {
+  "qid": "D016",
+  "dimension": "discovery",
+  "text": "best self-emptying robot vacuum for pet hair",
+  "brand": null
+ },
+ {
+  "qid": "D017",
+  "dimension": "discovery",
+  "text": "best self-emptying robot vacuum for large homes",
+  "brand": null
+ },
+ {
+  "qid": "D018",
+  "dimension": "discovery",
+  "text": "best self-emptying robot vacuum for thick carpet",
+  "brand": null
+ },
+ {
+  "qid": "D019",
+  "dimension": "discovery",
+  "text": "best self-emptying robot vacuum for hardwood floors",
+  "brand": null
+ },
+ {
+  "qid": "D020",
+  "dimension": "discovery",
+  "text": "best self-emptying robot vacuum for multiple pets",
+  "brand": null
+ },
+ {
+  "qid": "D021",
+  "dimension": "discovery",
+  "text": "best self-emptying robot vacuum on a budget",
+  "brand": null
+ },
+ {
+  "qid": "D022",
+  "dimension": "discovery",
+  "text": "best cordless stick vacuum",
+  "brand": null
+ },
+ {
+  "qid": "D023",
+  "dimension": "discovery",
+  "text": "best cordless stick vacuum for pet hair",
+  "brand": null
+ },
+ {
+  "qid": "D024",
+  "dimension": "discovery",
+  "text": "best cordless stick vacuum for large homes",
+  "brand": null
+ },
+ {
+  "qid": "D025",
+  "dimension": "discovery",
+  "text": "best cordless stick vacuum for thick carpet",
+  "brand": null
+ },
+ {
+  "qid": "D026",
+  "dimension": "discovery",
+  "text": "best cordless stick vacuum for hardwood floors",
+  "brand": null
+ },
+ {
+  "qid": "D027",
+  "dimension": "discovery",
+  "text": "best cordless stick vacuum for multiple pets",
+  "brand": null
+ },
+ {
+  "qid": "D028",
+  "dimension": "discovery",
+  "text": "best cordless stick vacuum on a budget",
+  "brand": null
+ },
+ {
+  "qid": "D029",
+  "dimension": "discovery",
+  "text": "best wet dry vacuum",
+  "brand": null
+ },
+ {
+  "qid": "D030",
+  "dimension": "discovery",
+  "text": "best wet dry vacuum for pet hair",
+  "brand": null
+ },
+ {
+  "qid": "D031",
+  "dimension": "discovery",
+  "text": "best wet dry vacuum for large homes",
+  "brand": null
+ },
+ {
+  "qid": "D032",
+  "dimension": "discovery",
+  "text": "best wet dry vacuum for thick carpet",
+  "brand": null
+ },
+ {
+  "qid": "D033",
+  "dimension": "discovery",
+  "text": "best wet dry vacuum for hardwood floors",
+  "brand": null
+ },
+ {
+  "qid": "D034",
+  "dimension": "discovery",
+  "text": "best wet dry vacuum for multiple pets",
+  "brand": null
+ },
+ {
+  "qid": "D035",
+  "dimension": "discovery",
+  "text": "best wet dry vacuum on a budget",
+  "brand": null
+ },
+ {
+  "qid": "D036",
+  "dimension": "discovery",
+  "text": "best smart floor washer",
+  "brand": null
+ },
+ {
+  "qid": "D037",
+  "dimension": "discovery",
+  "text": "best smart floor washer for pet hair",
+  "brand": null
+ },
+ {
+  "qid": "D038",
+  "dimension": "discovery",
+  "text": "best smart floor washer for large homes",
+  "brand": null
+ },
+ {
+  "qid": "D039",
+  "dimension": "discovery",
+  "text": "best smart floor washer for thick carpet",
+  "brand": null
+ },
+ {
+  "qid": "D040",
+  "dimension": "discovery",
+  "text": "best smart floor washer for hardwood floors",
+  "brand": null
+ },
+ {
+  "qid": "C001",
+  "dimension": "comparison",
+  "text": "Roborock vs Ecovacs",
+  "brand": "Roborock"
+ },
+ {
+  "qid": "C002",
+  "dimension": "comparison",
+  "text": "alternatives to Roborock",
+  "brand": "Roborock"
+ },
+ {
+  "qid": "C003",
+  "dimension": "comparison",
+  "text": "Roborock or Ecovacs, which is better",
+  "brand": "Roborock"
+ },
+ {
+  "qid": "C004",
+  "dimension": "comparison",
+  "text": "is Roborock better than Ecovacs",
+  "brand": "Roborock"
+ },
+ {
+  "qid": "T001",
+  "dimension": "trust",
+  "text": "Is Roborock legit?",
+  "brand": "Roborock"
+ },
+ {
+  "qid": "T002",
+  "dimension": "trust",
+  "text": "Is Roborock a good brand?",
+  "brand": "Roborock"
+ },
+ {
+  "qid": "T003",
+  "dimension": "trust",
+  "text": "Is Roborock trustworthy?",
+  "brand": "Roborock"
+ },
+ {
+  "qid": "P001",
+  "dimension": "price_longtail",
+  "text": "Is Roborock worth the money?",
+  "brand": "Roborock"
+ },
+ {
+  "qid": "P002",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Roborock",
+  "brand": "Roborock"
+ },
+ {
+  "qid": "F001",
+  "dimension": "freshness",
+  "text": "What's new from Roborock in 2025-2026?",
+  "brand": "Roborock"
+ },
+ {
+  "qid": "C005",
+  "dimension": "comparison",
+  "text": "Ecovacs vs Roborock",
+  "brand": "Ecovacs"
+ },
+ {
+  "qid": "C006",
+  "dimension": "comparison",
+  "text": "alternatives to Ecovacs",
+  "brand": "Ecovacs"
+ },
+ {
+  "qid": "C007",
+  "dimension": "comparison",
+  "text": "Ecovacs or Roborock, which is better",
+  "brand": "Ecovacs"
+ },
+ {
+  "qid": "C008",
+  "dimension": "comparison",
+  "text": "is Ecovacs better than Roborock",
+  "brand": "Ecovacs"
+ },
+ {
+  "qid": "T004",
+  "dimension": "trust",
+  "text": "Is Ecovacs legit?",
+  "brand": "Ecovacs"
+ },
+ {
+  "qid": "T005",
+  "dimension": "trust",
+  "text": "Is Ecovacs a good brand?",
+  "brand": "Ecovacs"
+ },
+ {
+  "qid": "T006",
+  "dimension": "trust",
+  "text": "Is Ecovacs trustworthy?",
+  "brand": "Ecovacs"
+ },
+ {
+  "qid": "P003",
+  "dimension": "price_longtail",
+  "text": "Is Ecovacs worth the money?",
+  "brand": "Ecovacs"
+ },
+ {
+  "qid": "P004",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Ecovacs",
+  "brand": "Ecovacs"
+ },
+ {
+  "qid": "F002",
+  "dimension": "freshness",
+  "text": "What's new from Ecovacs in 2025-2026?",
+  "brand": "Ecovacs"
+ },
+ {
+  "qid": "C009",
+  "dimension": "comparison",
+  "text": "Dreame vs Roborock",
+  "brand": "Dreame"
+ },
+ {
+  "qid": "C010",
+  "dimension": "comparison",
+  "text": "alternatives to Dreame",
+  "brand": "Dreame"
+ },
+ {
+  "qid": "C011",
+  "dimension": "comparison",
+  "text": "Dreame or Roborock, which is better",
+  "brand": "Dreame"
+ },
+ {
+  "qid": "C012",
+  "dimension": "comparison",
+  "text": "is Dreame better than Roborock",
+  "brand": "Dreame"
+ },
+ {
+  "qid": "T007",
+  "dimension": "trust",
+  "text": "Is Dreame legit?",
+  "brand": "Dreame"
+ },
+ {
+  "qid": "T008",
+  "dimension": "trust",
+  "text": "Is Dreame a good brand?",
+  "brand": "Dreame"
+ },
+ {
+  "qid": "T009",
+  "dimension": "trust",
+  "text": "Is Dreame trustworthy?",
+  "brand": "Dreame"
+ },
+ {
+  "qid": "P005",
+  "dimension": "price_longtail",
+  "text": "Is Dreame worth the money?",
+  "brand": "Dreame"
+ },
+ {
+  "qid": "P006",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Dreame",
+  "brand": "Dreame"
+ },
+ {
+  "qid": "F003",
+  "dimension": "freshness",
+  "text": "What's new from Dreame in 2025-2026?",
+  "brand": "Dreame"
+ },
+ {
+  "qid": "C013",
+  "dimension": "comparison",
+  "text": "Tineco vs Dreame",
+  "brand": "Tineco"
+ },
+ {
+  "qid": "C014",
+  "dimension": "comparison",
+  "text": "alternatives to Tineco",
+  "brand": "Tineco"
+ },
+ {
+  "qid": "C015",
+  "dimension": "comparison",
+  "text": "Tineco or Dreame, which is better",
+  "brand": "Tineco"
+ },
+ {
+  "qid": "C016",
+  "dimension": "comparison",
+  "text": "is Tineco better than Dreame",
+  "brand": "Tineco"
+ },
+ {
+  "qid": "T010",
+  "dimension": "trust",
+  "text": "Is Tineco legit?",
+  "brand": "Tineco"
+ },
+ {
+  "qid": "T011",
+  "dimension": "trust",
+  "text": "Is Tineco a good brand?",
+  "brand": "Tineco"
+ },
+ {
+  "qid": "T012",
+  "dimension": "trust",
+  "text": "Is Tineco trustworthy?",
+  "brand": "Tineco"
+ },
+ {
+  "qid": "P007",
+  "dimension": "price_longtail",
+  "text": "Is Tineco worth the money?",
+  "brand": "Tineco"
+ },
+ {
+  "qid": "P008",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Tineco",
+  "brand": "Tineco"
+ },
+ {
+  "qid": "F004",
+  "dimension": "freshness",
+  "text": "What's new from Tineco in 2025-2026?",
+  "brand": "Tineco"
+ },
+ {
+  "qid": "C017",
+  "dimension": "comparison",
+  "text": "Narwal vs Dreame",
+  "brand": "Narwal"
+ },
+ {
+  "qid": "C018",
+  "dimension": "comparison",
+  "text": "alternatives to Narwal",
+  "brand": "Narwal"
+ },
+ {
+  "qid": "C019",
+  "dimension": "comparison",
+  "text": "Narwal or Dreame, which is better",
+  "brand": "Narwal"
+ },
+ {
+  "qid": "C020",
+  "dimension": "comparison",
+  "text": "is Narwal better than Dreame",
+  "brand": "Narwal"
+ },
+ {
+  "qid": "T013",
+  "dimension": "trust",
+  "text": "Is Narwal legit?",
+  "brand": "Narwal"
+ },
+ {
+  "qid": "T014",
+  "dimension": "trust",
+  "text": "Is Narwal a good brand?",
+  "brand": "Narwal"
+ },
+ {
+  "qid": "T015",
+  "dimension": "trust",
+  "text": "Is Narwal trustworthy?",
+  "brand": "Narwal"
+ },
+ {
+  "qid": "P009",
+  "dimension": "price_longtail",
+  "text": "Is Narwal worth the money?",
+  "brand": "Narwal"
+ },
+ {
+  "qid": "P010",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Narwal",
+  "brand": "Narwal"
+ },
+ {
+  "qid": "F005",
+  "dimension": "freshness",
+  "text": "What's new from Narwal in 2025-2026?",
+  "brand": "Narwal"
+ },
+ {
+  "qid": "C021",
+  "dimension": "comparison",
+  "text": "Yeedi vs Ecovacs",
+  "brand": "Yeedi"
+ },
+ {
+  "qid": "C022",
+  "dimension": "comparison",
+  "text": "alternatives to Yeedi",
+  "brand": "Yeedi"
+ },
+ {
+  "qid": "C023",
+  "dimension": "comparison",
+  "text": "Yeedi or Ecovacs, which is better",
+  "brand": "Yeedi"
+ },
+ {
+  "qid": "C024",
+  "dimension": "comparison",
+  "text": "is Yeedi better than Ecovacs",
+  "brand": "Yeedi"
+ },
+ {
+  "qid": "T016",
+  "dimension": "trust",
+  "text": "Is Yeedi legit?",
+  "brand": "Yeedi"
+ },
+ {
+  "qid": "T017",
+  "dimension": "trust",
+  "text": "Is Yeedi a good brand?",
+  "brand": "Yeedi"
+ },
+ {
+  "qid": "T018",
+  "dimension": "trust",
+  "text": "Is Yeedi trustworthy?",
+  "brand": "Yeedi"
+ },
+ {
+  "qid": "P011",
+  "dimension": "price_longtail",
+  "text": "Is Yeedi worth the money?",
+  "brand": "Yeedi"
+ },
+ {
+  "qid": "P012",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Yeedi",
+  "brand": "Yeedi"
+ },
+ {
+  "qid": "F006",
+  "dimension": "freshness",
+  "text": "What's new from Yeedi in 2025-2026?",
+  "brand": "Yeedi"
+ },
+ {
+  "qid": "C025",
+  "dimension": "comparison",
+  "text": "SwitchBot vs Roborock",
+  "brand": "SwitchBot"
+ },
+ {
+  "qid": "C026",
+  "dimension": "comparison",
+  "text": "alternatives to SwitchBot",
+  "brand": "SwitchBot"
+ },
+ {
+  "qid": "C027",
+  "dimension": "comparison",
+  "text": "SwitchBot or Roborock, which is better",
+  "brand": "SwitchBot"
+ },
+ {
+  "qid": "C028",
+  "dimension": "comparison",
+  "text": "is SwitchBot better than Roborock",
+  "brand": "SwitchBot"
+ },
+ {
+  "qid": "T019",
+  "dimension": "trust",
+  "text": "Is SwitchBot legit?",
+  "brand": "SwitchBot"
+ },
+ {
+  "qid": "T020",
+  "dimension": "trust",
+  "text": "Is SwitchBot a good brand?",
+  "brand": "SwitchBot"
+ },
+ {
+  "qid": "T021",
+  "dimension": "trust",
+  "text": "Is SwitchBot trustworthy?",
+  "brand": "SwitchBot"
+ },
+ {
+  "qid": "P013",
+  "dimension": "price_longtail",
+  "text": "Is SwitchBot worth the money?",
+  "brand": "SwitchBot"
+ },
+ {
+  "qid": "P014",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to SwitchBot",
+  "brand": "SwitchBot"
+ },
+ {
+  "qid": "F007",
+  "dimension": "freshness",
+  "text": "What's new from SwitchBot in 2025-2026?",
+  "brand": "SwitchBot"
+ },
+ {
+  "qid": "C029",
+  "dimension": "comparison",
+  "text": "Eufy vs iRobot",
+  "brand": "Eufy"
+ },
+ {
+  "qid": "C030",
+  "dimension": "comparison",
+  "text": "alternatives to Eufy",
+  "brand": "Eufy"
+ },
+ {
+  "qid": "C031",
+  "dimension": "comparison",
+  "text": "Eufy or iRobot, which is better",
+  "brand": "Eufy"
+ },
+ {
+  "qid": "C032",
+  "dimension": "comparison",
+  "text": "is Eufy better than iRobot",
+  "brand": "Eufy"
+ },
+ {
+  "qid": "T022",
+  "dimension": "trust",
+  "text": "Is Eufy legit?",
+  "brand": "Eufy"
+ },
+ {
+  "qid": "T023",
+  "dimension": "trust",
+  "text": "Is Eufy a good brand?",
+  "brand": "Eufy"
+ },
+ {
+  "qid": "T024",
+  "dimension": "trust",
+  "text": "Is Eufy trustworthy?",
+  "brand": "Eufy"
+ },
+ {
+  "qid": "P015",
+  "dimension": "price_longtail",
+  "text": "Is Eufy worth the money?",
+  "brand": "Eufy"
+ },
+ {
+  "qid": "P016",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Eufy",
+  "brand": "Eufy"
+ },
+ {
+  "qid": "F008",
+  "dimension": "freshness",
+  "text": "What's new from Eufy in 2025-2026?",
+  "brand": "Eufy"
+ },
+ {
+  "qid": "C033",
+  "dimension": "comparison",
+  "text": "iLife vs Eufy",
+  "brand": "iLife"
+ },
+ {
+  "qid": "C034",
+  "dimension": "comparison",
+  "text": "alternatives to iLife",
+  "brand": "iLife"
+ },
+ {
+  "qid": "C035",
+  "dimension": "comparison",
+  "text": "iLife or Eufy, which is better",
+  "brand": "iLife"
+ },
+ {
+  "qid": "C036",
+  "dimension": "comparison",
+  "text": "is iLife better than Eufy",
+  "brand": "iLife"
+ },
+ {
+  "qid": "T025",
+  "dimension": "trust",
+  "text": "Is iLife legit?",
+  "brand": "iLife"
+ },
+ {
+  "qid": "T026",
+  "dimension": "trust",
+  "text": "Is iLife a good brand?",
+  "brand": "iLife"
+ },
+ {
+  "qid": "T027",
+  "dimension": "trust",
+  "text": "Is iLife trustworthy?",
+  "brand": "iLife"
+ },
+ {
+  "qid": "P017",
+  "dimension": "price_longtail",
+  "text": "Is iLife worth the money?",
+  "brand": "iLife"
+ },
+ {
+  "qid": "P018",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to iLife",
+  "brand": "iLife"
+ },
+ {
+  "qid": "F009",
+  "dimension": "freshness",
+  "text": "What's new from iLife in 2025-2026?",
+  "brand": "iLife"
+ },
+ {
+  "qid": "C037",
+  "dimension": "comparison",
+  "text": "Proscenic vs iLife",
+  "brand": "Proscenic"
+ },
+ {
+  "qid": "C038",
+  "dimension": "comparison",
+  "text": "alternatives to Proscenic",
+  "brand": "Proscenic"
+ },
+ {
+  "qid": "C039",
+  "dimension": "comparison",
+  "text": "Proscenic or iLife, which is better",
+  "brand": "Proscenic"
+ },
+ {
+  "qid": "C040",
+  "dimension": "comparison",
+  "text": "is Proscenic better than iLife",
+  "brand": "Proscenic"
+ },
+ {
+  "qid": "T028",
+  "dimension": "trust",
+  "text": "Is Proscenic legit?",
+  "brand": "Proscenic"
+ },
+ {
+  "qid": "T029",
+  "dimension": "trust",
+  "text": "Is Proscenic a good brand?",
+  "brand": "Proscenic"
+ },
+ {
+  "qid": "T030",
+  "dimension": "trust",
+  "text": "Is Proscenic trustworthy?",
+  "brand": "Proscenic"
+ },
+ {
+  "qid": "P019",
+  "dimension": "price_longtail",
+  "text": "Is Proscenic worth the money?",
+  "brand": "Proscenic"
+ },
+ {
+  "qid": "P020",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Proscenic",
+  "brand": "Proscenic"
+ },
+ {
+  "qid": "F010",
+  "dimension": "freshness",
+  "text": "What's new from Proscenic in 2025-2026?",
+  "brand": "Proscenic"
+ },
+ {
+  "qid": "C041",
+  "dimension": "comparison",
+  "text": "Lefant vs iLife",
+  "brand": "Lefant"
+ },
+ {
+  "qid": "C042",
+  "dimension": "comparison",
+  "text": "alternatives to Lefant",
+  "brand": "Lefant"
+ },
+ {
+  "qid": "C043",
+  "dimension": "comparison",
+  "text": "Lefant or iLife, which is better",
+  "brand": "Lefant"
+ },
+ {
+  "qid": "C044",
+  "dimension": "comparison",
+  "text": "is Lefant better than iLife",
+  "brand": "Lefant"
+ },
+ {
+  "qid": "T031",
+  "dimension": "trust",
+  "text": "Is Lefant legit?",
+  "brand": "Lefant"
+ },
+ {
+  "qid": "T032",
+  "dimension": "trust",
+  "text": "Is Lefant a good brand?",
+  "brand": "Lefant"
+ },
+ {
+  "qid": "T033",
+  "dimension": "trust",
+  "text": "Is Lefant trustworthy?",
+  "brand": "Lefant"
+ },
+ {
+  "qid": "P021",
+  "dimension": "price_longtail",
+  "text": "Is Lefant worth the money?",
+  "brand": "Lefant"
+ },
+ {
+  "qid": "P022",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Lefant",
+  "brand": "Lefant"
+ },
+ {
+  "qid": "F011",
+  "dimension": "freshness",
+  "text": "What's new from Lefant in 2025-2026?",
+  "brand": "Lefant"
+ },
+ {
+  "qid": "C045",
+  "dimension": "comparison",
+  "text": "Neatsvor vs Lefant",
+  "brand": "Neatsvor"
+ },
+ {
+  "qid": "C046",
+  "dimension": "comparison",
+  "text": "alternatives to Neatsvor",
+  "brand": "Neatsvor"
+ },
+ {
+  "qid": "C047",
+  "dimension": "comparison",
+  "text": "Neatsvor or Lefant, which is better",
+  "brand": "Neatsvor"
+ },
+ {
+  "qid": "C048",
+  "dimension": "comparison",
+  "text": "is Neatsvor better than Lefant",
+  "brand": "Neatsvor"
+ },
+ {
+  "qid": "T034",
+  "dimension": "trust",
+  "text": "Is Neatsvor legit?",
+  "brand": "Neatsvor"
+ },
+ {
+  "qid": "T035",
+  "dimension": "trust",
+  "text": "Is Neatsvor a good brand?",
+  "brand": "Neatsvor"
+ },
+ {
+  "qid": "T036",
+  "dimension": "trust",
+  "text": "Is Neatsvor trustworthy?",
+  "brand": "Neatsvor"
+ },
+ {
+  "qid": "P023",
+  "dimension": "price_longtail",
+  "text": "Is Neatsvor worth the money?",
+  "brand": "Neatsvor"
+ },
+ {
+  "qid": "P024",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Neatsvor",
+  "brand": "Neatsvor"
+ },
+ {
+  "qid": "F012",
+  "dimension": "freshness",
+  "text": "What's new from Neatsvor in 2025-2026?",
+  "brand": "Neatsvor"
+ },
+ {
+  "qid": "C049",
+  "dimension": "comparison",
+  "text": "Coredy vs Neatsvor",
+  "brand": "Coredy"
+ },
+ {
+  "qid": "C050",
+  "dimension": "comparison",
+  "text": "alternatives to Coredy",
+  "brand": "Coredy"
+ },
+ {
+  "qid": "C051",
+  "dimension": "comparison",
+  "text": "Coredy or Neatsvor, which is better",
+  "brand": "Coredy"
+ },
+ {
+  "qid": "C052",
+  "dimension": "comparison",
+  "text": "is Coredy better than Neatsvor",
+  "brand": "Coredy"
+ },
+ {
+  "qid": "T037",
+  "dimension": "trust",
+  "text": "Is Coredy legit?",
+  "brand": "Coredy"
+ },
+ {
+  "qid": "T038",
+  "dimension": "trust",
+  "text": "Is Coredy a good brand?",
+  "brand": "Coredy"
+ },
+ {
+  "qid": "T039",
+  "dimension": "trust",
+  "text": "Is Coredy trustworthy?",
+  "brand": "Coredy"
+ },
+ {
+  "qid": "P025",
+  "dimension": "price_longtail",
+  "text": "Is Coredy worth the money?",
+  "brand": "Coredy"
+ },
+ {
+  "qid": "P026",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Coredy",
+  "brand": "Coredy"
+ },
+ {
+  "qid": "F013",
+  "dimension": "freshness",
+  "text": "What's new from Coredy in 2025-2026?",
+  "brand": "Coredy"
+ },
+ {
+  "qid": "C053",
+  "dimension": "comparison",
+  "text": "AIRROBO vs Eufy",
+  "brand": "AIRROBO"
+ },
+ {
+  "qid": "C054",
+  "dimension": "comparison",
+  "text": "alternatives to AIRROBO",
+  "brand": "AIRROBO"
+ },
+ {
+  "qid": "C055",
+  "dimension": "comparison",
+  "text": "AIRROBO or Eufy, which is better",
+  "brand": "AIRROBO"
+ },
+ {
+  "qid": "C056",
+  "dimension": "comparison",
+  "text": "is AIRROBO better than Eufy",
+  "brand": "AIRROBO"
+ },
+ {
+  "qid": "T040",
+  "dimension": "trust",
+  "text": "Is AIRROBO legit?",
+  "brand": "AIRROBO"
+ },
+ {
+  "qid": "T041",
+  "dimension": "trust",
+  "text": "Is AIRROBO a good brand?",
+  "brand": "AIRROBO"
+ },
+ {
+  "qid": "T042",
+  "dimension": "trust",
+  "text": "Is AIRROBO trustworthy?",
+  "brand": "AIRROBO"
+ },
+ {
+  "qid": "P027",
+  "dimension": "price_longtail",
+  "text": "Is AIRROBO worth the money?",
+  "brand": "AIRROBO"
+ },
+ {
+  "qid": "P028",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to AIRROBO",
+  "brand": "AIRROBO"
+ },
+ {
+  "qid": "F014",
+  "dimension": "freshness",
+  "text": "What's new from AIRROBO in 2025-2026?",
+  "brand": "AIRROBO"
+ },
+ {
+  "qid": "C057",
+  "dimension": "comparison",
+  "text": "UWANT vs Tineco",
+  "brand": "UWANT"
+ },
+ {
+  "qid": "C058",
+  "dimension": "comparison",
+  "text": "alternatives to UWANT",
+  "brand": "UWANT"
+ },
+ {
+  "qid": "C059",
+  "dimension": "comparison",
+  "text": "UWANT or Tineco, which is better",
+  "brand": "UWANT"
+ },
+ {
+  "qid": "C060",
+  "dimension": "comparison",
+  "text": "is UWANT better than Tineco",
+  "brand": "UWANT"
+ },
+ {
+  "qid": "T043",
+  "dimension": "trust",
+  "text": "Is UWANT legit?",
+  "brand": "UWANT"
+ },
+ {
+  "qid": "T044",
+  "dimension": "trust",
+  "text": "Is UWANT a good brand?",
+  "brand": "UWANT"
+ },
+ {
+  "qid": "T045",
+  "dimension": "trust",
+  "text": "Is UWANT trustworthy?",
+  "brand": "UWANT"
+ },
+ {
+  "qid": "P029",
+  "dimension": "price_longtail",
+  "text": "Is UWANT worth the money?",
+  "brand": "UWANT"
+ },
+ {
+  "qid": "P030",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to UWANT",
+  "brand": "UWANT"
+ },
+ {
+  "qid": "F015",
+  "dimension": "freshness",
+  "text": "What's new from UWANT in 2025-2026?",
+  "brand": "UWANT"
+ },
+ {
+  "qid": "C061",
+  "dimension": "comparison",
+  "text": "Zigma vs Roborock",
+  "brand": "Zigma"
+ },
+ {
+  "qid": "C062",
+  "dimension": "comparison",
+  "text": "alternatives to Zigma",
+  "brand": "Zigma"
+ },
+ {
+  "qid": "C063",
+  "dimension": "comparison",
+  "text": "Zigma or Roborock, which is better",
+  "brand": "Zigma"
+ },
+ {
+  "qid": "C064",
+  "dimension": "comparison",
+  "text": "is Zigma better than Roborock",
+  "brand": "Zigma"
+ },
+ {
+  "qid": "T046",
+  "dimension": "trust",
+  "text": "Is Zigma legit?",
+  "brand": "Zigma"
+ },
+ {
+  "qid": "T047",
+  "dimension": "trust",
+  "text": "Is Zigma a good brand?",
+  "brand": "Zigma"
+ },
+ {
+  "qid": "T048",
+  "dimension": "trust",
+  "text": "Is Zigma trustworthy?",
+  "brand": "Zigma"
+ },
+ {
+  "qid": "P031",
+  "dimension": "price_longtail",
+  "text": "Is Zigma worth the money?",
+  "brand": "Zigma"
+ },
+ {
+  "qid": "P032",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Zigma",
+  "brand": "Zigma"
+ },
+ {
+  "qid": "F016",
+  "dimension": "freshness",
+  "text": "What's new from Zigma in 2025-2026?",
+  "brand": "Zigma"
+ },
+ {
+  "qid": "C065",
+  "dimension": "comparison",
+  "text": "Amarey vs iLife",
+  "brand": "Amarey"
+ },
+ {
+  "qid": "C066",
+  "dimension": "comparison",
+  "text": "alternatives to Amarey",
+  "brand": "Amarey"
+ },
+ {
+  "qid": "C067",
+  "dimension": "comparison",
+  "text": "Amarey or iLife, which is better",
+  "brand": "Amarey"
+ },
+ {
+  "qid": "C068",
+  "dimension": "comparison",
+  "text": "is Amarey better than iLife",
+  "brand": "Amarey"
+ },
+ {
+  "qid": "T049",
+  "dimension": "trust",
+  "text": "Is Amarey legit?",
+  "brand": "Amarey"
+ },
+ {
+  "qid": "T050",
+  "dimension": "trust",
+  "text": "Is Amarey a good brand?",
+  "brand": "Amarey"
+ },
+ {
+  "qid": "T051",
+  "dimension": "trust",
+  "text": "Is Amarey trustworthy?",
+  "brand": "Amarey"
+ },
+ {
+  "qid": "P033",
+  "dimension": "price_longtail",
+  "text": "Is Amarey worth the money?",
+  "brand": "Amarey"
+ },
+ {
+  "qid": "P034",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Amarey",
+  "brand": "Amarey"
+ },
+ {
+  "qid": "F017",
+  "dimension": "freshness",
+  "text": "What's new from Amarey in 2025-2026?",
+  "brand": "Amarey"
+ },
+ {
+  "qid": "C069",
+  "dimension": "comparison",
+  "text": "Honiture vs Neatsvor",
+  "brand": "Honiture"
+ },
+ {
+  "qid": "C070",
+  "dimension": "comparison",
+  "text": "alternatives to Honiture",
+  "brand": "Honiture"
+ },
+ {
+  "qid": "C071",
+  "dimension": "comparison",
+  "text": "Honiture or Neatsvor, which is better",
+  "brand": "Honiture"
+ },
+ {
+  "qid": "C072",
+  "dimension": "comparison",
+  "text": "is Honiture better than Neatsvor",
+  "brand": "Honiture"
+ },
+ {
+  "qid": "T052",
+  "dimension": "trust",
+  "text": "Is Honiture legit?",
+  "brand": "Honiture"
+ },
+ {
+  "qid": "T053",
+  "dimension": "trust",
+  "text": "Is Honiture a good brand?",
+  "brand": "Honiture"
+ },
+ {
+  "qid": "T054",
+  "dimension": "trust",
+  "text": "Is Honiture trustworthy?",
+  "brand": "Honiture"
+ },
+ {
+  "qid": "P035",
+  "dimension": "price_longtail",
+  "text": "Is Honiture worth the money?",
+  "brand": "Honiture"
+ },
+ {
+  "qid": "P036",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Honiture",
+  "brand": "Honiture"
+ },
+ {
+  "qid": "F018",
+  "dimension": "freshness",
+  "text": "What's new from Honiture in 2025-2026?",
+  "brand": "Honiture"
+ },
+ {
+  "qid": "C073",
+  "dimension": "comparison",
+  "text": "Levoit vs Shark",
+  "brand": "Levoit"
+ },
+ {
+  "qid": "C074",
+  "dimension": "comparison",
+  "text": "alternatives to Levoit",
+  "brand": "Levoit"
+ },
+ {
+  "qid": "C075",
+  "dimension": "comparison",
+  "text": "Levoit or Shark, which is better",
+  "brand": "Levoit"
+ },
+ {
+  "qid": "C076",
+  "dimension": "comparison",
+  "text": "is Levoit better than Shark",
+  "brand": "Levoit"
+ },
+ {
+  "qid": "T055",
+  "dimension": "trust",
+  "text": "Is Levoit legit?",
+  "brand": "Levoit"
+ },
+ {
+  "qid": "T056",
+  "dimension": "trust",
+  "text": "Is Levoit a good brand?",
+  "brand": "Levoit"
+ },
+ {
+  "qid": "T057",
+  "dimension": "trust",
+  "text": "Is Levoit trustworthy?",
+  "brand": "Levoit"
+ },
+ {
+  "qid": "P037",
+  "dimension": "price_longtail",
+  "text": "Is Levoit worth the money?",
+  "brand": "Levoit"
+ },
+ {
+  "qid": "P038",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Levoit",
+  "brand": "Levoit"
+ },
+ {
+  "qid": "F019",
+  "dimension": "freshness",
+  "text": "What's new from Levoit in 2025-2026?",
+  "brand": "Levoit"
+ },
+ {
+  "qid": "C077",
+  "dimension": "comparison",
+  "text": "MOVA vs Dreame",
+  "brand": "MOVA"
+ },
+ {
+  "qid": "C078",
+  "dimension": "comparison",
+  "text": "alternatives to MOVA",
+  "brand": "MOVA"
+ },
+ {
+  "qid": "C079",
+  "dimension": "comparison",
+  "text": "MOVA or Dreame, which is better",
+  "brand": "MOVA"
+ },
+ {
+  "qid": "C080",
+  "dimension": "comparison",
+  "text": "is MOVA better than Dreame",
+  "brand": "MOVA"
+ },
+ {
+  "qid": "T058",
+  "dimension": "trust",
+  "text": "Is MOVA legit?",
+  "brand": "MOVA"
+ },
+ {
+  "qid": "T059",
+  "dimension": "trust",
+  "text": "Is MOVA a good brand?",
+  "brand": "MOVA"
+ },
+ {
+  "qid": "T060",
+  "dimension": "trust",
+  "text": "Is MOVA trustworthy?",
+  "brand": "MOVA"
+ },
+ {
+  "qid": "P039",
+  "dimension": "price_longtail",
+  "text": "Is MOVA worth the money?",
+  "brand": "MOVA"
+ },
+ {
+  "qid": "P040",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to MOVA",
+  "brand": "MOVA"
+ },
+ {
+  "qid": "F020",
+  "dimension": "freshness",
+  "text": "What's new from MOVA in 2025-2026?",
+  "brand": "MOVA"
+ },
+ {
+  "qid": "C081",
+  "dimension": "comparison",
+  "text": "Homeika vs Dyson",
+  "brand": "Homeika"
+ },
+ {
+  "qid": "C082",
+  "dimension": "comparison",
+  "text": "alternatives to Homeika",
+  "brand": "Homeika"
+ },
+ {
+  "qid": "C083",
+  "dimension": "comparison",
+  "text": "Homeika or Dyson, which is better",
+  "brand": "Homeika"
+ },
+ {
+  "qid": "C084",
+  "dimension": "comparison",
+  "text": "is Homeika better than Dyson",
+  "brand": "Homeika"
+ },
+ {
+  "qid": "T061",
+  "dimension": "trust",
+  "text": "Is Homeika legit?",
+  "brand": "Homeika"
+ },
+ {
+  "qid": "T062",
+  "dimension": "trust",
+  "text": "Is Homeika a good brand?",
+  "brand": "Homeika"
+ },
+ {
+  "qid": "T063",
+  "dimension": "trust",
+  "text": "Is Homeika trustworthy?",
+  "brand": "Homeika"
+ },
+ {
+  "qid": "P041",
+  "dimension": "price_longtail",
+  "text": "Is Homeika worth the money?",
+  "brand": "Homeika"
+ },
+ {
+  "qid": "P042",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Homeika",
+  "brand": "Homeika"
+ },
+ {
+  "qid": "F021",
+  "dimension": "freshness",
+  "text": "What's new from Homeika in 2025-2026?",
+  "brand": "Homeika"
+ },
+ {
+  "qid": "C085",
+  "dimension": "comparison",
+  "text": "Fanttik vs Homeika",
+  "brand": "Fanttik"
+ },
+ {
+  "qid": "C086",
+  "dimension": "comparison",
+  "text": "alternatives to Fanttik",
+  "brand": "Fanttik"
+ },
+ {
+  "qid": "C087",
+  "dimension": "comparison",
+  "text": "Fanttik or Homeika, which is better",
+  "brand": "Fanttik"
+ },
+ {
+  "qid": "C088",
+  "dimension": "comparison",
+  "text": "is Fanttik better than Homeika",
+  "brand": "Fanttik"
+ },
+ {
+  "qid": "T064",
+  "dimension": "trust",
+  "text": "Is Fanttik legit?",
+  "brand": "Fanttik"
+ },
+ {
+  "qid": "T065",
+  "dimension": "trust",
+  "text": "Is Fanttik a good brand?",
+  "brand": "Fanttik"
+ },
+ {
+  "qid": "T066",
+  "dimension": "trust",
+  "text": "Is Fanttik trustworthy?",
+  "brand": "Fanttik"
+ },
+ {
+  "qid": "P043",
+  "dimension": "price_longtail",
+  "text": "Is Fanttik worth the money?",
+  "brand": "Fanttik"
+ },
+ {
+  "qid": "P044",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Fanttik",
+  "brand": "Fanttik"
+ },
+ {
+  "qid": "F022",
+  "dimension": "freshness",
+  "text": "What's new from Fanttik in 2025-2026?",
+  "brand": "Fanttik"
+ },
+ {
+  "qid": "C089",
+  "dimension": "comparison",
+  "text": "HIZERO vs Tineco",
+  "brand": "HIZERO"
+ },
+ {
+  "qid": "C090",
+  "dimension": "comparison",
+  "text": "alternatives to HIZERO",
+  "brand": "HIZERO"
+ },
+ {
+  "qid": "C091",
+  "dimension": "comparison",
+  "text": "HIZERO or Tineco, which is better",
+  "brand": "HIZERO"
+ },
+ {
+  "qid": "C092",
+  "dimension": "comparison",
+  "text": "is HIZERO better than Tineco",
+  "brand": "HIZERO"
+ },
+ {
+  "qid": "T067",
+  "dimension": "trust",
+  "text": "Is HIZERO legit?",
+  "brand": "HIZERO"
+ },
+ {
+  "qid": "T068",
+  "dimension": "trust",
+  "text": "Is HIZERO a good brand?",
+  "brand": "HIZERO"
+ },
+ {
+  "qid": "T069",
+  "dimension": "trust",
+  "text": "Is HIZERO trustworthy?",
+  "brand": "HIZERO"
+ },
+ {
+  "qid": "P045",
+  "dimension": "price_longtail",
+  "text": "Is HIZERO worth the money?",
+  "brand": "HIZERO"
+ },
+ {
+  "qid": "P046",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to HIZERO",
+  "brand": "HIZERO"
+ },
+ {
+  "qid": "F023",
+  "dimension": "freshness",
+  "text": "What's new from HIZERO in 2025-2026?",
+  "brand": "HIZERO"
+ },
+ {
+  "qid": "C093",
+  "dimension": "comparison",
+  "text": "HOTO vs Homeika",
+  "brand": "HOTO"
+ },
+ {
+  "qid": "C094",
+  "dimension": "comparison",
+  "text": "alternatives to HOTO",
+  "brand": "HOTO"
+ },
+ {
+  "qid": "C095",
+  "dimension": "comparison",
+  "text": "HOTO or Homeika, which is better",
+  "brand": "HOTO"
+ },
+ {
+  "qid": "C096",
+  "dimension": "comparison",
+  "text": "is HOTO better than Homeika",
+  "brand": "HOTO"
+ },
+ {
+  "qid": "T070",
+  "dimension": "trust",
+  "text": "Is HOTO legit?",
+  "brand": "HOTO"
+ },
+ {
+  "qid": "T071",
+  "dimension": "trust",
+  "text": "Is HOTO a good brand?",
+  "brand": "HOTO"
+ },
+ {
+  "qid": "T072",
+  "dimension": "trust",
+  "text": "Is HOTO trustworthy?",
+  "brand": "HOTO"
+ },
+ {
+  "qid": "P047",
+  "dimension": "price_longtail",
+  "text": "Is HOTO worth the money?",
+  "brand": "HOTO"
+ },
+ {
+  "qid": "P048",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to HOTO",
+  "brand": "HOTO"
+ },
+ {
+  "qid": "F024",
+  "dimension": "freshness",
+  "text": "What's new from HOTO in 2025-2026?",
+  "brand": "HOTO"
+ },
+ {
+  "qid": "C097",
+  "dimension": "comparison",
+  "text": "iRobot vs Shark",
+  "brand": "iRobot"
+ },
+ {
+  "qid": "C098",
+  "dimension": "comparison",
+  "text": "alternatives to iRobot",
+  "brand": "iRobot"
+ },
+ {
+  "qid": "C099",
+  "dimension": "comparison",
+  "text": "iRobot or Shark, which is better",
+  "brand": "iRobot"
+ },
+ {
+  "qid": "C100",
+  "dimension": "comparison",
+  "text": "is iRobot better than Shark",
+  "brand": "iRobot"
+ },
+ {
+  "qid": "T073",
+  "dimension": "trust",
+  "text": "Is iRobot legit?",
+  "brand": "iRobot"
+ },
+ {
+  "qid": "T074",
+  "dimension": "trust",
+  "text": "Is iRobot a good brand?",
+  "brand": "iRobot"
+ },
+ {
+  "qid": "T075",
+  "dimension": "trust",
+  "text": "Is iRobot trustworthy?",
+  "brand": "iRobot"
+ },
+ {
+  "qid": "P049",
+  "dimension": "price_longtail",
+  "text": "Is iRobot worth the money?",
+  "brand": "iRobot"
+ },
+ {
+  "qid": "P050",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to iRobot",
+  "brand": "iRobot"
+ },
+ {
+  "qid": "F025",
+  "dimension": "freshness",
+  "text": "What's new from iRobot in 2025-2026?",
+  "brand": "iRobot"
+ },
+ {
+  "qid": "C101",
+  "dimension": "comparison",
+  "text": "Shark vs iRobot",
+  "brand": "Shark"
+ },
+ {
+  "qid": "C102",
+  "dimension": "comparison",
+  "text": "alternatives to Shark",
+  "brand": "Shark"
+ },
+ {
+  "qid": "C103",
+  "dimension": "comparison",
+  "text": "Shark or iRobot, which is better",
+  "brand": "Shark"
+ },
+ {
+  "qid": "C104",
+  "dimension": "comparison",
+  "text": "is Shark better than iRobot",
+  "brand": "Shark"
+ },
+ {
+  "qid": "T076",
+  "dimension": "trust",
+  "text": "Is Shark legit?",
+  "brand": "Shark"
+ },
+ {
+  "qid": "T077",
+  "dimension": "trust",
+  "text": "Is Shark a good brand?",
+  "brand": "Shark"
+ },
+ {
+  "qid": "T078",
+  "dimension": "trust",
+  "text": "Is Shark trustworthy?",
+  "brand": "Shark"
+ },
+ {
+  "qid": "P051",
+  "dimension": "price_longtail",
+  "text": "Is Shark worth the money?",
+  "brand": "Shark"
+ },
+ {
+  "qid": "P052",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Shark",
+  "brand": "Shark"
+ },
+ {
+  "qid": "F026",
+  "dimension": "freshness",
+  "text": "What's new from Shark in 2025-2026?",
+  "brand": "Shark"
+ },
+ {
+  "qid": "C105",
+  "dimension": "comparison",
+  "text": "Dyson vs Shark",
+  "brand": "Dyson"
+ },
+ {
+  "qid": "C106",
+  "dimension": "comparison",
+  "text": "alternatives to Dyson",
+  "brand": "Dyson"
+ },
+ {
+  "qid": "C107",
+  "dimension": "comparison",
+  "text": "Dyson or Shark, which is better",
+  "brand": "Dyson"
+ },
+ {
+  "qid": "C108",
+  "dimension": "comparison",
+  "text": "is Dyson better than Shark",
+  "brand": "Dyson"
+ },
+ {
+  "qid": "T079",
+  "dimension": "trust",
+  "text": "Is Dyson legit?",
+  "brand": "Dyson"
+ },
+ {
+  "qid": "T080",
+  "dimension": "trust",
+  "text": "Is Dyson a good brand?",
+  "brand": "Dyson"
+ },
+ {
+  "qid": "T081",
+  "dimension": "trust",
+  "text": "Is Dyson trustworthy?",
+  "brand": "Dyson"
+ },
+ {
+  "qid": "P053",
+  "dimension": "price_longtail",
+  "text": "Is Dyson worth the money?",
+  "brand": "Dyson"
+ },
+ {
+  "qid": "P054",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Dyson",
+  "brand": "Dyson"
+ },
+ {
+  "qid": "F027",
+  "dimension": "freshness",
+  "text": "What's new from Dyson in 2025-2026?",
+  "brand": "Dyson"
+ },
+ {
+  "qid": "C109",
+  "dimension": "comparison",
+  "text": "Samsung vs Dyson",
+  "brand": "Samsung"
+ },
+ {
+  "qid": "C110",
+  "dimension": "comparison",
+  "text": "alternatives to Samsung",
+  "brand": "Samsung"
+ },
+ {
+  "qid": "C111",
+  "dimension": "comparison",
+  "text": "Samsung or Dyson, which is better",
+  "brand": "Samsung"
+ },
+ {
+  "qid": "C112",
+  "dimension": "comparison",
+  "text": "is Samsung better than Dyson",
+  "brand": "Samsung"
+ },
+ {
+  "qid": "T082",
+  "dimension": "trust",
+  "text": "Is Samsung legit?",
+  "brand": "Samsung"
+ },
+ {
+  "qid": "T083",
+  "dimension": "trust",
+  "text": "Is Samsung a good brand?",
+  "brand": "Samsung"
+ },
+ {
+  "qid": "T084",
+  "dimension": "trust",
+  "text": "Is Samsung trustworthy?",
+  "brand": "Samsung"
+ },
+ {
+  "qid": "P055",
+  "dimension": "price_longtail",
+  "text": "Is Samsung worth the money?",
+  "brand": "Samsung"
+ },
+ {
+  "qid": "P056",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Samsung",
+  "brand": "Samsung"
+ },
+ {
+  "qid": "F028",
+  "dimension": "freshness",
+  "text": "What's new from Samsung in 2025-2026?",
+  "brand": "Samsung"
+ },
+ {
+  "qid": "C113",
+  "dimension": "comparison",
+  "text": "Bissell vs Shark",
+  "brand": "Bissell"
+ },
+ {
+  "qid": "C114",
+  "dimension": "comparison",
+  "text": "alternatives to Bissell",
+  "brand": "Bissell"
+ },
+ {
+  "qid": "C115",
+  "dimension": "comparison",
+  "text": "Bissell or Shark, which is better",
+  "brand": "Bissell"
+ },
+ {
+  "qid": "C116",
+  "dimension": "comparison",
+  "text": "is Bissell better than Shark",
+  "brand": "Bissell"
+ },
+ {
+  "qid": "T085",
+  "dimension": "trust",
+  "text": "Is Bissell legit?",
+  "brand": "Bissell"
+ },
+ {
+  "qid": "T086",
+  "dimension": "trust",
+  "text": "Is Bissell a good brand?",
+  "brand": "Bissell"
+ },
+ {
+  "qid": "T087",
+  "dimension": "trust",
+  "text": "Is Bissell trustworthy?",
+  "brand": "Bissell"
+ },
+ {
+  "qid": "P057",
+  "dimension": "price_longtail",
+  "text": "Is Bissell worth the money?",
+  "brand": "Bissell"
+ },
+ {
+  "qid": "P058",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Bissell",
+  "brand": "Bissell"
+ },
+ {
+  "qid": "F029",
+  "dimension": "freshness",
+  "text": "What's new from Bissell in 2025-2026?",
+  "brand": "Bissell"
+ },
+ {
+  "qid": "C117",
+  "dimension": "comparison",
+  "text": "Miele vs Dyson",
+  "brand": "Miele"
+ },
+ {
+  "qid": "C118",
+  "dimension": "comparison",
+  "text": "alternatives to Miele",
+  "brand": "Miele"
+ },
+ {
+  "qid": "C119",
+  "dimension": "comparison",
+  "text": "Miele or Dyson, which is better",
+  "brand": "Miele"
+ },
+ {
+  "qid": "C120",
+  "dimension": "comparison",
+  "text": "is Miele better than Dyson",
+  "brand": "Miele"
+ },
+ {
+  "qid": "T088",
+  "dimension": "trust",
+  "text": "Is Miele legit?",
+  "brand": "Miele"
+ },
+ {
+  "qid": "T089",
+  "dimension": "trust",
+  "text": "Is Miele a good brand?",
+  "brand": "Miele"
+ },
+ {
+  "qid": "T090",
+  "dimension": "trust",
+  "text": "Is Miele trustworthy?",
+  "brand": "Miele"
+ },
+ {
+  "qid": "P059",
+  "dimension": "price_longtail",
+  "text": "Is Miele worth the money?",
+  "brand": "Miele"
+ },
+ {
+  "qid": "P060",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Miele",
+  "brand": "Miele"
+ },
+ {
+  "qid": "F030",
+  "dimension": "freshness",
+  "text": "What's new from Miele in 2025-2026?",
+  "brand": "Miele"
+ },
+ {
+  "qid": "C121",
+  "dimension": "comparison",
+  "text": "Neato vs iRobot",
+  "brand": "Neato"
+ },
+ {
+  "qid": "C122",
+  "dimension": "comparison",
+  "text": "alternatives to Neato",
+  "brand": "Neato"
+ },
+ {
+  "qid": "C123",
+  "dimension": "comparison",
+  "text": "Neato or iRobot, which is better",
+  "brand": "Neato"
+ },
+ {
+  "qid": "C124",
+  "dimension": "comparison",
+  "text": "is Neato better than iRobot",
+  "brand": "Neato"
+ },
+ {
+  "qid": "T091",
+  "dimension": "trust",
+  "text": "Is Neato legit?",
+  "brand": "Neato"
+ },
+ {
+  "qid": "T092",
+  "dimension": "trust",
+  "text": "Is Neato a good brand?",
+  "brand": "Neato"
+ },
+ {
+  "qid": "T093",
+  "dimension": "trust",
+  "text": "Is Neato trustworthy?",
+  "brand": "Neato"
+ },
+ {
+  "qid": "P061",
+  "dimension": "price_longtail",
+  "text": "Is Neato worth the money?",
+  "brand": "Neato"
+ },
+ {
+  "qid": "P062",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Neato",
+  "brand": "Neato"
+ },
+ {
+  "qid": "F031",
+  "dimension": "freshness",
+  "text": "What's new from Neato in 2025-2026?",
+  "brand": "Neato"
+ },
+ {
+  "qid": "C125",
+  "dimension": "comparison",
+  "text": "Robotin vs Roborock",
+  "brand": "Robotin"
+ },
+ {
+  "qid": "C126",
+  "dimension": "comparison",
+  "text": "alternatives to Robotin",
+  "brand": "Robotin"
+ },
+ {
+  "qid": "C127",
+  "dimension": "comparison",
+  "text": "Robotin or Roborock, which is better",
+  "brand": "Robotin"
+ },
+ {
+  "qid": "C128",
+  "dimension": "comparison",
+  "text": "is Robotin better than Roborock",
+  "brand": "Robotin"
+ },
+ {
+  "qid": "T094",
+  "dimension": "trust",
+  "text": "Is Robotin legit?",
+  "brand": "Robotin"
+ },
+ {
+  "qid": "T095",
+  "dimension": "trust",
+  "text": "Is Robotin a good brand?",
+  "brand": "Robotin"
+ },
+ {
+  "qid": "T096",
+  "dimension": "trust",
+  "text": "Is Robotin trustworthy?",
+  "brand": "Robotin"
+ },
+ {
+  "qid": "P063",
+  "dimension": "price_longtail",
+  "text": "Is Robotin worth the money?",
+  "brand": "Robotin"
+ },
+ {
+  "qid": "P064",
+  "dimension": "price_longtail",
+  "text": "cheaper alternatives to Robotin",
+  "brand": "Robotin"
+ },
+ {
+  "qid": "F032",
+  "dimension": "freshness",
+  "text": "What's new from Robotin in 2025-2026?",
+  "brand": "Robotin"
+ }
+]
