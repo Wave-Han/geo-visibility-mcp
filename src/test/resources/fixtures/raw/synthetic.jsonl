@@ -1,0 +1,6 @@
+{"engine":"e1","qid":"D001","dimension":"discovery","brand":null,"question":"best widget","answer":"Alpha is the top pick overall.","citations":[],"error":null,"ts":"2026-11-01T10:00:00"}
+{"engine":"e1","qid":"D002","dimension":"discovery","brand":null,"question":"best gadget","answer":"Beta leads here.","citations":[],"error":null,"ts":"2026-11-01T10:00:01"}
+{"engine":"e1","qid":"D003","dimension":"discovery","brand":null,"question":"best widget for pets","answer":"Alpha again, Beta close.","citations":[],"error":null,"ts":"2026-11-01T10:00:02"}
+{"engine":"e1","qid":"D004","dimension":"discovery","brand":null,"question":"top rated widget","answer":"Gamma surprise winner.","citations":[],"error":null,"ts":"2026-11-01T10:00:03"}
+{"engine":"e1","qid":"T001","dimension":"trust","brand":"Alpha","question":"Is Alpha legit?","answer":"Yes, Alpha is legitimate.","citations":[],"error":null,"ts":"2026-11-01T10:00:04"}
+{"engine":"e2","qid":"D001","dimension":"discovery","brand":null,"question":"best widget","answer":"Beta only here.","citations":[],"error":null,"ts":"2026-11-01T10:00:05"}
