@@ -4,6 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -90,7 +91,36 @@ public class GeoProperties {
         }
 
         public void setExtraBody(Map<String, Object> extraBody) {
-            this.extraBody = extraBody;
+            // Spring binds Map<String,Object> values from YAML lists as indexed
+            // maps ({"0": ...}); restore real lists so the request body carries
+            // a JSON array.
+            this.extraBody = (Map<String, Object>) listify(extraBody);
+        }
+
+        @SuppressWarnings("unchecked")
+        private static Object listify(Object value) {
+            if (value instanceof Map<?, ?> m) {
+                var norm = new LinkedHashMap<>();
+                for (var e : m.entrySet()) {
+                    norm.put(e.getKey(), listify(e.getValue()));
+                }
+                int i = 0;
+                for (var k : m.keySet()) {
+                    if (!String.valueOf(i++).equals(String.valueOf(k))) {
+                        return norm;
+                    }
+                }
+                // keys are exactly "0".."n-1" in order -> indexed list
+                return new ArrayList<>(norm.values());
+            }
+            if (value instanceof List<?> l) {
+                var out = new ArrayList<>(l.size());
+                for (var item : l) {
+                    out.add(listify(item));
+                }
+                return out;
+            }
+            return value;
         }
     }
 
