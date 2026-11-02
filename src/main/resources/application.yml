@@ -15,14 +15,16 @@ geo:
       type: responses
       layer: search
       base-url: https://api.deepseek.com/v1
-      model: deepseek-v4-flash
+      model: deepseek-v4.1-flash   # switched 2026-11-02 (baseline Oct used v4-flash; v4.1 GA since 2026-09)
       api-key-env: DEEPSEEK_API_KEY
       enabled: true
     - name: zhipu
       type: compat
-      layer: memory            # glm-4-flash does not execute web_search (verified by probe)
+      # glm-4-flash (baseline) ignored web_search = memory layer. glm-5.3-flash may
+      # execute it - run probe_engine after this switch; if grounded, flip layer to search.
+      layer: memory
       base-url: https://open.bigmodel.cn/api/paas/v4
-      model: glm-4-flash
+      model: glm-5.3-flash
       api-key-env: ZHIPU_API_KEY
       enabled: true
       extra-body:
