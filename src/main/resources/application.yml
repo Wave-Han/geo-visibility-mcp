@@ -21,8 +21,10 @@ geo:
     - name: zhipu
       type: compat
       # glm-5.3-flash executes web_search (probe 2026-11-02, grounded) = search layer.
-      # Earlier glm-4-flash "memory" verdict was measured with a malformed tools body
-      # (Spring binding bug, fixed same day) - treat that verdict as unverified.
+      # glm-4-flash answered from memory even with a well-formed body (verified via
+      # the Python probe_zhipu.py, 2026-10-31) - the layer flipped with the model
+      # generation, not with the Java binding bug (which was Java-only and never
+      # measured glm-4-flash). Add a glm-4-flash engine entry to keep a memory layer.
       layer: search
       base-url: https://open.bigmodel.cn/api/paas/v4
       model: glm-5.3-flash
