@@ -1,5 +1,7 @@
 # geo-visibility-mcp
 
+![build](https://github.com/Wave-Han/geo-visibility-mcp/actions/workflows/ci.yml/badge.svg)
+
 Java / Spring MCP server that measures **brand visibility in AI answer engines** — reproducibly, and data-compatible with [geo-visibility (Python)](https://github.com/Wave-Han/geo-visibility).
 
 Point `geo.data-dir` at a checkout of the Python project and this server can analyze its collected data (and vice versa): both tools read and write the same JSONL record format and the same question-id scheme, verified by a golden test of 360 questions.
