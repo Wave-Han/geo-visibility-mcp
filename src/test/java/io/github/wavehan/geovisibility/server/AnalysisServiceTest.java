@@ -1,6 +1,7 @@
 package io.github.wavehan.geovisibility.server;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.github.wavehan.geovisibility.core.RawRecord;
 import io.github.wavehan.geovisibility.data.BrandRepository;
 import io.github.wavehan.geovisibility.data.GeoProperties;
 import io.github.wavehan.geovisibility.data.JsonlStore;
@@ -41,6 +42,25 @@ class AnalysisServiceTest {
         assertEquals(0.0, find(e2, "Alpha").mentionRate(), 1e-9);
         // note must state layers are kept separate
         assertTrue(result.note().contains("separately"));
+    }
+
+    @Test
+    void errorRecordsAreExcludedFromMetrics(@TempDir Path dir) throws Exception {
+        Files.createDirectories(dir.resolve("data"));
+        Files.createDirectories(dir.resolve("output/raw"));
+        Files.copy(FIX.resolve("brands.yaml"), dir.resolve("data/brands.yaml"));
+        Files.copy(FIX.resolve("raw/synthetic.jsonl"), dir.resolve("output/raw/synthetic.jsonl"));
+        // a failed call leaves an error record with an empty answer; it must not
+        // deflate the discovery denominator (same rule as MeasureService / Python)
+        var store = new JsonlStore(new ObjectMapper());
+        store.append(dir.resolve("output/raw/synthetic.jsonl"), new RawRecord(
+                "e1", "D005", "discovery", null, "best budget widget", "", List.of(),
+                "HTTP 400: boom", "2026-11-02T11:00:00"));
+
+        var svc = new AnalysisService(new BrandRepository(dir),
+                store, registryWithEngines("e1", "e2"), props(dir));
+        var alpha = find(svc.analyze(null, null).engines().get(0), "Alpha");
+        assertEquals(0.5, alpha.mentionRate(), 1e-9);
     }
 
     @Test

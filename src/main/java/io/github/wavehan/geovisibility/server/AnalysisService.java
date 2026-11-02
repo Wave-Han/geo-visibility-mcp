@@ -64,6 +64,9 @@ public class AnalysisService {
         var all = brands.load();
         var matchers = MentionParser.buildMatchers(all);
         var byEngine = store.readAll(rawDir).stream()
+                // metrics only over valid (non-errored) records,
+                // same rule as MeasureService and the Python parser
+                .filter(r -> r.error() == null)
                 .filter(r -> engineFilter == null || engineFilter.isBlank()
                         || engineFilter.equals(r.engine()))
                 .filter(r -> brandFilter == null || brandFilter.isBlank()
